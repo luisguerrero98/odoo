@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_cleteci_root" name="Cleteci Module" sequence="10"/>
+    <menuitem id="menu_cleteci_model" name="Cleteci Models" parent="menu_cleteci_root" action="action_cleteci_model"/>
+</odoo>

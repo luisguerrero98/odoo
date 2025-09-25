@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="cleteci_model_demo1" model="cleteci.model">
+        <field name="name">Test Record 1</field>
+        <field name="description">This is a test record for Cleteci Module.</field>
+    </record>
+    <record id="cleteci_model_demo2" model="cleteci.model">
+        <field name="name">Test Record 2</field>
+        <field name="description">Another test record for Cleteci Module.</field>
+    </record>
+</odoo>

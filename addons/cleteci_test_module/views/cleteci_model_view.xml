@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_cleteci_model_list" model="ir.ui.view">
+        <field name="name">cleteci.model.list</field>
+        <field name="model">cleteci.model</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="description"/>
+            </list>
+        </field>
+    </record>
+    <record id="view_cleteci_model_form" model="ir.ui.view">
+        <field name="name">cleteci.model.form</field>
+        <field name="model">cleteci.model</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="action_cleteci_model" model="ir.actions.act_window">
+        <field name="name">Cleteci</field>
+        <field name="res_model">cleteci.model</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
